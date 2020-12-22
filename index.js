@@ -13,7 +13,7 @@ catch(error=>console.log(error));
 
 
 //Definimos puerto
-const port = process.env.port||4000;
+const port = process.env.PORT||4000;
 //En esta terniaria se escoge la via a seguir entre un puerto que esta dado ya sea por uno o por el mismo server/hoster
 //o local también coloca el puerto encargado como segunda opcion que uno escoga o tenga e mente, también puede colocar una opcion
 //vacia que lo identifique el server y sepa decidir
