@@ -2,7 +2,7 @@
   "name": "agencianp",
   "version": "1.0.0",
   "description": "Practica con Node",
-  "main":"index.js",
+  "main":"node index.js",
   "scripts": {
     "dev": "nodemon server",
     "start": "node server"
