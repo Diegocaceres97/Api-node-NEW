@@ -14,7 +14,7 @@ const paginaInicio = async (req,res)=>{
             viajes: resultado[0],
             testimoniales:resultado[1]
                 });
-    } catch (error) {
+    } catch (error) { 
         console.log(error);
     }
   

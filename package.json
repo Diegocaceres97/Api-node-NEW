@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Practica con Node",
   "main":"node index.js",
+  "web":"node index.js",
   "scripts": {
     "dev": "nodemon server",
     "start": "node server"
